@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D53E3ACF2AD1FAEF000AC0FE /* ParkPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3ACE2AD1FAEF000AC0FE /* ParkPalApp.swift */; };
+		D53E3AD12AD1FAEF000AC0FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3AD02AD1FAEF000AC0FE /* ContentView.swift */; };
+		D53E3AD32AD1FAF1000AC0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53E3AD22AD1FAF1000AC0FE /* Assets.xcassets */; };
+		D53E3AD62AD1FAF1000AC0FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53E3AD52AD1FAF1000AC0FE /* Preview Assets.xcassets */; };
+		D53E3AE02AD1FAF1000AC0FE /* ParkPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3ADF2AD1FAF1000AC0FE /* ParkPalTests.swift */; };
+		D53E3AEA2AD1FAF1000AC0FE /* ParkPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3AE92AD1FAF1000AC0FE /* ParkPalUITests.swift */; };
+		D53E3AEC2AD1FAF1000AC0FE /* ParkPalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3AEB2AD1FAF1000AC0FE /* ParkPalUITestsLaunchTests.swift */; };
+		D53E3AFB2AD20BA6000AC0FE /* LoginWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3AFA2AD20BA6000AC0FE /* LoginWindow.swift */; };
+		D53E3AFD2AD21A4A000AC0FE /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3AFC2AD21A4A000AC0FE /* SplashScreen.swift */; };
+		D53E3AFF2AD27FB6000AC0FE /* LoginWindow2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3AFE2AD27FB5000AC0FE /* LoginWindow2.swift */; };
+		D53E3B012AD28DF8000AC0FE /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3B002AD28DF8000AC0FE /* ForgotPassword.swift */; };
+		D53E3B052AD29100000AC0FE /* couture.otf in Resources */ = {isa = PBXBuildFile; fileRef = D53E3B042AD29100000AC0FE /* couture.otf */; };
+		D53E3B062AD29100000AC0FE /* couture.otf in Resources */ = {isa = PBXBuildFile; fileRef = D53E3B042AD29100000AC0FE /* couture.otf */; };
+		D53E3B072AD29100000AC0FE /* couture.otf in Resources */ = {isa = PBXBuildFile; fileRef = D53E3B042AD29100000AC0FE /* couture.otf */; };
+		D53E3B0E2AD2985A000AC0FE /* Gilgan.otf in Resources */ = {isa = PBXBuildFile; fileRef = D53E3B0D2AD2985A000AC0FE /* Gilgan.otf */; };
+		D53E3B0F2AD2985A000AC0FE /* Gilgan.otf in Resources */ = {isa = PBXBuildFile; fileRef = D53E3B0D2AD2985A000AC0FE /* Gilgan.otf */; };
+		D53E3B102AD2985A000AC0FE /* Gilgan.otf in Resources */ = {isa = PBXBuildFile; fileRef = D53E3B0D2AD2985A000AC0FE /* Gilgan.otf */; };
+		D53E3B122AD29E7A000AC0FE /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3B112AD29E7A000AC0FE /* MainMenu.swift */; };
+		D53E3B132AD29E7A000AC0FE /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3B112AD29E7A000AC0FE /* MainMenu.swift */; };
+		D53E3B142AD29E7A000AC0FE /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3B112AD29E7A000AC0FE /* MainMenu.swift */; };
+		D53E3B162AD2C10A000AC0FE /* LotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3B152AD2C10A000AC0FE /* LotView.swift */; };
+		D53E3B172AD2C10A000AC0FE /* LotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3B152AD2C10A000AC0FE /* LotView.swift */; };
+		D53E3B182AD2C10A000AC0FE /* LotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3B152AD2C10A000AC0FE /* LotView.swift */; };
+		D53E3B1E2AD30652000AC0FE /* Faculty1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3B1D2AD30652000AC0FE /* Faculty1View.swift */; };
+		D53E3B1F2AD30652000AC0FE /* Faculty1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3B1D2AD30652000AC0FE /* Faculty1View.swift */; };
+		D53E3B202AD30652000AC0FE /* Faculty1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3B1D2AD30652000AC0FE /* Faculty1View.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D53E3ADC2AD1FAF1000AC0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D53E3AC32AD1FAEF000AC0FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D53E3ACA2AD1FAEF000AC0FE;
+			remoteInfo = ParkPal;
+		};
+		D53E3AE62AD1FAF1000AC0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D53E3AC32AD1FAEF000AC0FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D53E3ACA2AD1FAEF000AC0FE;
+			remoteInfo = ParkPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D53E3ACB2AD1FAEF000AC0FE /* ParkPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53E3ACE2AD1FAEF000AC0FE /* ParkPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkPalApp.swift; sourceTree = "<group>"; };
+		D53E3AD02AD1FAEF000AC0FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D53E3AD22AD1FAF1000AC0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D53E3AD52AD1FAF1000AC0FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D53E3ADB2AD1FAF1000AC0FE /* ParkPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53E3ADF2AD1FAF1000AC0FE /* ParkPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkPalTests.swift; sourceTree = "<group>"; };
+		D53E3AE52AD1FAF1000AC0FE /* ParkPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53E3AE92AD1FAF1000AC0FE /* ParkPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkPalUITests.swift; sourceTree = "<group>"; };
+		D53E3AEB2AD1FAF1000AC0FE /* ParkPalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkPalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D53E3AFA2AD20BA6000AC0FE /* LoginWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWindow.swift; sourceTree = "<group>"; };
+		D53E3AFC2AD21A4A000AC0FE /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		D53E3AFE2AD27FB5000AC0FE /* LoginWindow2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWindow2.swift; sourceTree = "<group>"; };
+		D53E3B002AD28DF8000AC0FE /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		D53E3B042AD29100000AC0FE /* couture.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = couture.otf; sourceTree = "<group>"; };
+		D53E3B082AD29201000AC0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D53E3B0D2AD2985A000AC0FE /* Gilgan.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gilgan.otf; sourceTree = "<group>"; };
+		D53E3B112AD29E7A000AC0FE /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		D53E3B152AD2C10A000AC0FE /* LotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotView.swift; sourceTree = "<group>"; };
+		D53E3B1D2AD30652000AC0FE /* Faculty1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faculty1View.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D53E3AC82AD1FAEF000AC0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53E3AD82AD1FAF1000AC0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53E3AE22AD1FAF1000AC0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D53E3AC22AD1FAEF000AC0FE = {
+			isa = PBXGroup;
+			children = (
+				D53E3ACD2AD1FAEF000AC0FE /* ParkPal */,
+				D53E3ADE2AD1FAF1000AC0FE /* ParkPalTests */,
+				D53E3AE82AD1FAF1000AC0FE /* ParkPalUITests */,
+				D53E3ACC2AD1FAEF000AC0FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D53E3ACC2AD1FAEF000AC0FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D53E3ACB2AD1FAEF000AC0FE /* ParkPal.app */,
+				D53E3ADB2AD1FAF1000AC0FE /* ParkPalTests.xctest */,
+				D53E3AE52AD1FAF1000AC0FE /* ParkPalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D53E3ACD2AD1FAEF000AC0FE /* ParkPal */ = {
+			isa = PBXGroup;
+			children = (
+				D53E3B082AD29201000AC0FE /* Info.plist */,
+				D53E3B0D2AD2985A000AC0FE /* Gilgan.otf */,
+				D53E3B042AD29100000AC0FE /* couture.otf */,
+				D53E3ACE2AD1FAEF000AC0FE /* ParkPalApp.swift */,
+				D53E3AFC2AD21A4A000AC0FE /* SplashScreen.swift */,
+				D53E3AD02AD1FAEF000AC0FE /* ContentView.swift */,
+				D53E3AFA2AD20BA6000AC0FE /* LoginWindow.swift */,
+				D53E3AFE2AD27FB5000AC0FE /* LoginWindow2.swift */,
+				D53E3B002AD28DF8000AC0FE /* ForgotPassword.swift */,
+				D53E3B112AD29E7A000AC0FE /* MainMenu.swift */,
+				D53E3B1D2AD30652000AC0FE /* Faculty1View.swift */,
+				D53E3B152AD2C10A000AC0FE /* LotView.swift */,
+				D53E3AD22AD1FAF1000AC0FE /* Assets.xcassets */,
+				D53E3AD42AD1FAF1000AC0FE /* Preview Content */,
+			);
+			path = ParkPal;
+			sourceTree = "<group>";
+		};
+		D53E3AD42AD1FAF1000AC0FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D53E3AD52AD1FAF1000AC0FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D53E3ADE2AD1FAF1000AC0FE /* ParkPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				D53E3ADF2AD1FAF1000AC0FE /* ParkPalTests.swift */,
+			);
+			path = ParkPalTests;
+			sourceTree = "<group>";
+		};
+		D53E3AE82AD1FAF1000AC0FE /* ParkPalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D53E3AE92AD1FAF1000AC0FE /* ParkPalUITests.swift */,
+				D53E3AEB2AD1FAF1000AC0FE /* ParkPalUITestsLaunchTests.swift */,
+			);
+			path = ParkPalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D53E3ACA2AD1FAEF000AC0FE /* ParkPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53E3AEF2AD1FAF1000AC0FE /* Build configuration list for PBXNativeTarget "ParkPal" */;
+			buildPhases = (
+				D53E3AC72AD1FAEF000AC0FE /* Sources */,
+				D53E3AC82AD1FAEF000AC0FE /* Frameworks */,
+				D53E3AC92AD1FAEF000AC0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkPal;
+			productName = ParkPal;
+			productReference = D53E3ACB2AD1FAEF000AC0FE /* ParkPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D53E3ADA2AD1FAF1000AC0FE /* ParkPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53E3AF22AD1FAF1000AC0FE /* Build configuration list for PBXNativeTarget "ParkPalTests" */;
+			buildPhases = (
+				D53E3AD72AD1FAF1000AC0FE /* Sources */,
+				D53E3AD82AD1FAF1000AC0FE /* Frameworks */,
+				D53E3AD92AD1FAF1000AC0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D53E3ADD2AD1FAF1000AC0FE /* PBXTargetDependency */,
+			);
+			name = ParkPalTests;
+			productName = ParkPalTests;
+			productReference = D53E3ADB2AD1FAF1000AC0FE /* ParkPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D53E3AE42AD1FAF1000AC0FE /* ParkPalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53E3AF52AD1FAF1000AC0FE /* Build configuration list for PBXNativeTarget "ParkPalUITests" */;
+			buildPhases = (
+				D53E3AE12AD1FAF1000AC0FE /* Sources */,
+				D53E3AE22AD1FAF1000AC0FE /* Frameworks */,
+				D53E3AE32AD1FAF1000AC0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D53E3AE72AD1FAF1000AC0FE /* PBXTargetDependency */,
+			);
+			name = ParkPalUITests;
+			productName = ParkPalUITests;
+			productReference = D53E3AE52AD1FAF1000AC0FE /* ParkPalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D53E3AC32AD1FAEF000AC0FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D53E3ACA2AD1FAEF000AC0FE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					D53E3ADA2AD1FAF1000AC0FE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D53E3ACA2AD1FAEF000AC0FE;
+					};
+					D53E3AE42AD1FAF1000AC0FE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D53E3ACA2AD1FAEF000AC0FE;
+					};
+				};
+			};
+			buildConfigurationList = D53E3AC62AD1FAEF000AC0FE /* Build configuration list for PBXProject "ParkPal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D53E3AC22AD1FAEF000AC0FE;
+			productRefGroup = D53E3ACC2AD1FAEF000AC0FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D53E3ACA2AD1FAEF000AC0FE /* ParkPal */,
+				D53E3ADA2AD1FAF1000AC0FE /* ParkPalTests */,
+				D53E3AE42AD1FAF1000AC0FE /* ParkPalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D53E3AC92AD1FAEF000AC0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53E3AD62AD1FAF1000AC0FE /* Preview Assets.xcassets in Resources */,
+				D53E3AD32AD1FAF1000AC0FE /* Assets.xcassets in Resources */,
+				D53E3B052AD29100000AC0FE /* couture.otf in Resources */,
+				D53E3B0E2AD2985A000AC0FE /* Gilgan.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53E3AD92AD1FAF1000AC0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53E3B062AD29100000AC0FE /* couture.otf in Resources */,
+				D53E3B0F2AD2985A000AC0FE /* Gilgan.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53E3AE32AD1FAF1000AC0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53E3B072AD29100000AC0FE /* couture.otf in Resources */,
+				D53E3B102AD2985A000AC0FE /* Gilgan.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D53E3AC72AD1FAEF000AC0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53E3B1E2AD30652000AC0FE /* Faculty1View.swift in Sources */,
+				D53E3AFD2AD21A4A000AC0FE /* SplashScreen.swift in Sources */,
+				D53E3AD12AD1FAEF000AC0FE /* ContentView.swift in Sources */,
+				D53E3B162AD2C10A000AC0FE /* LotView.swift in Sources */,
+				D53E3B122AD29E7A000AC0FE /* MainMenu.swift in Sources */,
+				D53E3AFB2AD20BA6000AC0FE /* LoginWindow.swift in Sources */,
+				D53E3ACF2AD1FAEF000AC0FE /* ParkPalApp.swift in Sources */,
+				D53E3AFF2AD27FB6000AC0FE /* LoginWindow2.swift in Sources */,
+				D53E3B012AD28DF8000AC0FE /* ForgotPassword.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53E3AD72AD1FAF1000AC0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53E3AE02AD1FAF1000AC0FE /* ParkPalTests.swift in Sources */,
+				D53E3B1F2AD30652000AC0FE /* Faculty1View.swift in Sources */,
+				D53E3B172AD2C10A000AC0FE /* LotView.swift in Sources */,
+				D53E3B132AD29E7A000AC0FE /* MainMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53E3AE12AD1FAF1000AC0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53E3AEC2AD1FAF1000AC0FE /* ParkPalUITestsLaunchTests.swift in Sources */,
+				D53E3B202AD30652000AC0FE /* Faculty1View.swift in Sources */,
+				D53E3B142AD29E7A000AC0FE /* MainMenu.swift in Sources */,
+				D53E3B182AD2C10A000AC0FE /* LotView.swift in Sources */,
+				D53E3AEA2AD1FAF1000AC0FE /* ParkPalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D53E3ADD2AD1FAF1000AC0FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D53E3ACA2AD1FAEF000AC0FE /* ParkPal */;
+			targetProxy = D53E3ADC2AD1FAF1000AC0FE /* PBXContainerItemProxy */;
+		};
+		D53E3AE72AD1FAF1000AC0FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D53E3ACA2AD1FAEF000AC0FE /* ParkPal */;
+			targetProxy = D53E3AE62AD1FAF1000AC0FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D53E3AED2AD1FAF1000AC0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D53E3AEE2AD1FAF1000AC0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D53E3AF02AD1FAF1000AC0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParkPal/Preview Content\"";
+				DEVELOPMENT_TEAM = 8N3K3ZWMDG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkPal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LAPL.ParkPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D53E3AF12AD1FAF1000AC0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParkPal/Preview Content\"";
+				DEVELOPMENT_TEAM = 8N3K3ZWMDG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkPal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LAPL.ParkPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D53E3AF32AD1FAF1000AC0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N3K3ZWMDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LAPL.ParkPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParkPal";
+			};
+			name = Debug;
+		};
+		D53E3AF42AD1FAF1000AC0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N3K3ZWMDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LAPL.ParkPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParkPal";
+			};
+			name = Release;
+		};
+		D53E3AF62AD1FAF1000AC0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N3K3ZWMDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LAPL.ParkPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParkPal;
+			};
+			name = Debug;
+		};
+		D53E3AF72AD1FAF1000AC0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N3K3ZWMDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LAPL.ParkPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParkPal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D53E3AC62AD1FAEF000AC0FE /* Build configuration list for PBXProject "ParkPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53E3AED2AD1FAF1000AC0FE /* Debug */,
+				D53E3AEE2AD1FAF1000AC0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53E3AEF2AD1FAF1000AC0FE /* Build configuration list for PBXNativeTarget "ParkPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53E3AF02AD1FAF1000AC0FE /* Debug */,
+				D53E3AF12AD1FAF1000AC0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53E3AF22AD1FAF1000AC0FE /* Build configuration list for PBXNativeTarget "ParkPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53E3AF32AD1FAF1000AC0FE /* Debug */,
+				D53E3AF42AD1FAF1000AC0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53E3AF52AD1FAF1000AC0FE /* Build configuration list for PBXNativeTarget "ParkPalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53E3AF62AD1FAF1000AC0FE /* Debug */,
+				D53E3AF72AD1FAF1000AC0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D53E3AC32AD1FAEF000AC0FE /* Project object */;
+}
